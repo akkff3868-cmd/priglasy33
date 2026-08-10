@@ -731,3 +731,29 @@ html, body{ max-width:100%; overflow-x:hidden; }
   .section{ padding-left:16px; padding-right:16px; }
   .welcome-content{ padding:0 16px; }
 }
+
+
+
+
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    background: #25D366;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.25);
+    transition: 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-3px);
+    background: #20bd5a;
+    box-shadow: 0 12px 28px rgba(37, 211, 102, 0.35);
+}
