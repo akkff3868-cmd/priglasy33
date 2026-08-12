@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
      4. ОБРАТНЫЙ ОТСЧЁТ ДО СВАДЬБЫ
      ЗАМЕНИТЕ ДАТУ НА СВОЮ (год, месяц (0-11), день, час, минута)
      ---------------------------------------------------------- */
-  const weddingDate = new Date(2026, 8, 12, 16, 0, 0).getTime(); // 15 сентября 2026, 16:00
+  const weddingDate = new Date(2026, 7, 15, 16, 0, 0).getTime(); // 15 августа 2026, 16:00
 
   const cdDays    = document.getElementById('cd-days');
   const cdHours   = document.getElementById('cd-hours');
